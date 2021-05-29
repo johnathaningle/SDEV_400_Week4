@@ -1,0 +1,471 @@
+{
+    "Sensors": [{
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor01"
+                    },
+                    "SensorDescription": {
+                        "S": "Temperature"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/sensor01.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "10000"
+                    },
+                    "Locations": {
+                        "L": [{
+                                "S": "Hagerstown, MD"
+                            },
+                            {
+                                "S": "Huntsville, AL"
+                            },
+                            {
+                                "S": "Port Royal, VA"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor02"
+                    },
+                    "SensorDescription": {
+                        "S": "Humidity"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/sensor02.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "1000"
+                    },
+                    "Locations": {
+                        "L": [{
+                                "S": "Arlington, MA"
+                            },
+                            {
+                                "S": "Fort Collins, CO"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor03"
+                    },
+                    "SensorDescription": {
+                        "S": "Light"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/sensor03.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "1000"
+                    },
+                    "Locations": {
+                        "L": [{
+                                "S": "Baltimore, MD"
+                            },
+                            {
+                                "S": "Frederick, MD"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor04"
+                    },
+                    "SensorDescription": {
+                        "S": "Humidity"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/sensor04.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "1000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor05"
+                    },
+                    "SensorDescription": {
+                        "S": "Temperature"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/sensor05.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "1000"
+                    },
+                    "Locations": {
+                        "L": [{
+                                "S": "Great Falls, MD"
+                            },
+                            {
+                                "S": "Middletown, MD"
+                            },
+                            {
+                                "S": "Daytona, FL"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor06"
+                    },
+                    "SensorDescription": {
+                        "S": "Temperature"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/sensor06.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "1000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor07"
+                    },
+                    "SensorDescription": {
+                        "S": "Humidity"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/sensor07.jpg"
+                    },
+                    "Locations": {
+                        "L": [{
+                            "S": "Cumberland, MD"
+                        }]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor08"
+                    },
+                    "SensorDescription": {
+                        "S": "Vibration"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/sensor08.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "1000"
+                    },
+                    "Locations": {
+                        "L": [{
+                                "S": "Middletown, MD"
+                            },
+                            {
+                                "S": "Charleston, SC"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor09"
+                    },
+                    "SensorDescription": {
+                        "S": "UV"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/sensor09.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "1000"
+                    },
+                    "Locations": {
+                        "L": [{
+                            "S": "Austin, TX"
+                        }]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor10"
+                    },
+                    "SensorDescription": {
+                        "S": "Disabled - UV"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/sensor10.jpg"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor11"
+                    },
+                    "SensorDescription": {
+                        "S": "Elevation"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/sensor11.jpg"
+                    },
+                    "Locations": {
+                        "L": [{
+                            "S": "Alexandria, VA"
+                        }]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor12"
+                    },
+                    "SensorDescription": {
+                        "S": "Humidity"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/sensor12.jpg"
+                    },
+                    "Locations": {
+                        "L": [{
+                                "S": "Phoenix, AZ"
+                            },
+                            {
+                                "S": "Boston, MA"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor13"
+                    },
+                    "SensorDescription": {
+                        "S": "Traffic"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/sensor13.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "1000"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor14"
+                    },
+                    "SensorDescription": {
+                        "S": "Humidity"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/sensor14.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "1000"
+                    },
+                    "Locations": {
+                        "L": [{
+                                "S": "Little Rock, AK"
+                            },
+                            {
+                                "S": "Ocean City, OR"
+                            },
+                            {
+                                "S": "Gaithersburg, MD"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor15"
+                    },
+                    "SensorDescription": {
+                        "S": "Temperature"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/sensor15.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "1000"
+                    },
+                    "Locations": {
+                        "L": [{
+                            "S": "Ellicott City, MD"
+                        }]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor16"
+                    },
+                    "SensorDescription": {
+                        "S": "Light"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/sensor16.jpg"
+                    },
+                    "Locations": {
+                        "L": [{
+                            "S": "Boonsboro, MD"
+                        }]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor17"
+                    },
+                    "SensorDescription": {
+                        "S": "Vibration"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/sensor17.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "1000"
+                    },
+                    "Locations": {
+                        "L": [{
+                                "S": "San Antonio, TX"
+                            },
+                            {
+                                "S": "Baltimore, MD"
+                            },
+                            {
+                                "S": "Louisville, KY"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor18"
+                    },
+                    "SensorDescription": {
+                        "S": "Light"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/sensor18.jpg"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor19"
+                    },
+                    "SensorDescription": {
+                        "S": "Light"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/sensor19.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "1000"
+                    },
+                    "Locations": {
+                        "L": [{
+                                "S": "Harrisburg, PA"
+                            },
+                            {
+                                "S": "Fresno, CA"
+                            },
+                            {
+                                "S": "Newport News, NY"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {
+                        "S": "Sensor20"
+                    },
+                    "SensorDescription": {
+                        "S": "Vibration"
+                    },
+                    "ImageFile": {
+                        "S": "/Sensors/images/sensor20.jpg"
+                    },
+                    "SampleRate": {
+                        "N": "1000"
+                    },
+                    "Locations": {
+                        "L": [{
+                            "S": "Elkton, MD"
+                        }]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+aws dynamodb create-table --table-name Sensors --attribute-definitions AttributeName=Sensor,AttributeType=S --key-schema AttributeName=Sensor,KeyType=HASH --provisioned-throughput ReadCapacityUnits=20,WriteCapacityUnits=20
